@@ -1,0 +1,8 @@
+web:
+  build: .
+  ports:
+    - "5901:5901"
+    - "6901:6901"
+
+  environment:
+    VNC_RESOLUTION: 1024x768
